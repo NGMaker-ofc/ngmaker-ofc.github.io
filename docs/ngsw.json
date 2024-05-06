@@ -1,0 +1,153 @@
+{
+  "configVersion": 1,
+  "timestamp": 1740611182855,
+  "index": "/index.csr.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/chunk-BUXAYJ63.js",
+        "/chunk-HAMQBOHD.js",
+        "/chunk-TH24ESBA.js",
+        "/favicon.ico",
+        "/index.csr.html",
+        "/index.html",
+        "/main-UYMG5M6Q.js",
+        "/manifest.webmanifest",
+        "/service-worker.js",
+        "/styles-STFPOJAP.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "lazy",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/fonts/OpenSans/Bold.ttf",
+        "/fonts/OpenSans/Medium.ttf",
+        "/fonts/OpenSans/Regular.ttf",
+        "/icons/instagram.svg",
+        "/icons/whatsapp.svg",
+        "/images/about.webp",
+        "/images/aboutMobile.webp",
+        "/images/author.webp",
+        "/images/categories/arquitetura.webp",
+        "/images/categories/automotivo.webp",
+        "/images/categories/drone.webp",
+        "/images/categories/makingoff.webp",
+        "/images/hero.webp",
+        "/images/logo.webp",
+        "/images/partners/lzart.webp",
+        "/images/projects/arquitetura/arquitetura1.webp",
+        "/images/projects/arquitetura/arquitetura10.webp",
+        "/images/projects/arquitetura/arquitetura2.webp",
+        "/images/projects/arquitetura/arquitetura3.webp",
+        "/images/projects/arquitetura/arquitetura4.webp",
+        "/images/projects/arquitetura/arquitetura5.webp",
+        "/images/projects/arquitetura/arquitetura6.webp",
+        "/images/projects/arquitetura/arquitetura7.webp",
+        "/images/projects/arquitetura/arquitetura8.webp",
+        "/images/projects/arquitetura/arquitetura9.webp",
+        "/images/projects/drone/drone1.webp",
+        "/images/projects/drone/drone2.webp",
+        "/images/projects/drone/drone3.webp",
+        "/videos/partners.mp4",
+        "/videos/projects/arquitetura/arq1.mp4",
+        "/videos/projects/arquitetura/arq1.webp",
+        "/videos/projects/arquitetura/arq2.mp4",
+        "/videos/projects/arquitetura/arq2.webp",
+        "/videos/projects/arquitetura/arq3.mp4",
+        "/videos/projects/arquitetura/arq3.webp",
+        "/videos/projects/automotivo/auto1.mp4",
+        "/videos/projects/automotivo/auto1.webp",
+        "/videos/projects/makingoff/mko1.mp4",
+        "/videos/projects/makingoff/mko1.webp",
+        "/videos/projects/makingoff/mko2.mp4",
+        "/videos/projects/makingoff/mko2.webp"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/chunk-BUXAYJ63.js": "71ca78bc3e229800e99897185f598048f4803220",
+    "/chunk-HAMQBOHD.js": "0b419734b9bfa81046bbcdc1c662e6dc67a45c3a",
+    "/chunk-TH24ESBA.js": "6778be8f356e3bcf23137e1dc8c7e129685339ad",
+    "/favicon.ico": "c993b6ec718826ec2f9c7dd80ccd8bd0726fc716",
+    "/fonts/OpenSans/Bold.ttf": "9b1adfbc773bb8bd1e6c4ca85c34441a43c2bc54",
+    "/fonts/OpenSans/Medium.ttf": "3ac7cf35a225574a0e1508d6df731b6ecdd5cf9b",
+    "/fonts/OpenSans/Regular.ttf": "76ea5d4c70539ad9b0e7faf7e4fbe3bae8a961c7",
+    "/icons/instagram.svg": "bcb13624c771d9811b4a9e6f66d9504a58a8f370",
+    "/icons/whatsapp.svg": "f56a9c30e62d7a1e3d243197db428cd99261194d",
+    "/images/about.webp": "8255956a3f32580fd534bc3d6b29d16a06bcd178",
+    "/images/aboutMobile.webp": "de02dc49f2cbdd9da7e357721af1a20bb1ef4a66",
+    "/images/author.webp": "a1c581907402fab8167385e0a230e8edc24aecaa",
+    "/images/categories/arquitetura.webp": "e631920aae02efe61b10eda4f3fe292f56e96c05",
+    "/images/categories/automotivo.webp": "bcd82d2299b2dc7efa9eddf093d0962da2372203",
+    "/images/categories/drone.webp": "adfb57df5bfa54f0e55f5b927d571b28a9dd9bfc",
+    "/images/categories/makingoff.webp": "baf246e6f1f1f60591e1e7022b41898a7e9ba33e",
+    "/images/hero.webp": "d52a7b20b1a6e1b1a8b1dd3c2e9f82cb83c1bc9a",
+    "/images/logo.webp": "eece0aa8b5343ba7e11f4cbf9ad87736404e5153",
+    "/images/partners/lzart.webp": "d6b6348dae4272416bd06c9a227e3a611bbba41d",
+    "/images/projects/arquitetura/arquitetura1.webp": "6a113909df5657c1a11c7167922376e0751913fb",
+    "/images/projects/arquitetura/arquitetura10.webp": "604c53bdef19e6a577e729a09482ab6ecfa755bb",
+    "/images/projects/arquitetura/arquitetura2.webp": "fb886d87b2e0ad329aa4359501b934254df4c19b",
+    "/images/projects/arquitetura/arquitetura3.webp": "938c23500b380f0a9ab5da25ba4bfa761a548cae",
+    "/images/projects/arquitetura/arquitetura4.webp": "318b50503176d9492a1f1a6234352a81bd163a51",
+    "/images/projects/arquitetura/arquitetura5.webp": "687edc1b5f07a2ebdb7972f3adc486d81ee744dc",
+    "/images/projects/arquitetura/arquitetura6.webp": "09c52826ba528ba3c94390ab3149cdc66eb68b1a",
+    "/images/projects/arquitetura/arquitetura7.webp": "d42575736c93900559a617e682d78a465184d8c6",
+    "/images/projects/arquitetura/arquitetura8.webp": "d8cd219ce6a89a69bceee21c82e821c7d9d9c99b",
+    "/images/projects/arquitetura/arquitetura9.webp": "0b04442de12a0eb2ccbdcadac9dc5dad0ee3f9e9",
+    "/images/projects/drone/drone1.webp": "44e12af0f076902ac01ff2f57c7fca706d9c5e9b",
+    "/images/projects/drone/drone2.webp": "c25c85510405296414da075bbeda868132654ac3",
+    "/images/projects/drone/drone3.webp": "bc883598f59ebf1cd00eb498661d414eb1fd06df",
+    "/index.csr.html": "83c6ca92abbc16a7a813c709f5138a2f6969ad21",
+    "/index.html": "14b1b3546c474610ecd34bc056175c3f49e2a878",
+    "/main-UYMG5M6Q.js": "1504c4a108d2264b188e3b5db15f50977dac30fb",
+    "/manifest.webmanifest": "c210b89721c9442f11f67b32e5a9fddb36091f06",
+    "/service-worker.js": "eaf0ebdb4fbb871d2bf985f3abbe7f0b4bfd57f0",
+    "/styles-STFPOJAP.css": "5187918634927302456c35d941ef698fcfd8cba9",
+    "/videos/partners.mp4": "e5767eace098c58b107c306a970b297aa251ff0d",
+    "/videos/projects/arquitetura/arq1.mp4": "3cf27df4385e82b2a334155aaf2d50c59794bcb0",
+    "/videos/projects/arquitetura/arq1.webp": "6b5296af9ad4c208403455678dd9b3a2970a25ed",
+    "/videos/projects/arquitetura/arq2.mp4": "32ec4d5ab6a6f48186da45864025d52116781b1b",
+    "/videos/projects/arquitetura/arq2.webp": "ca8a983367cce361311957c7ea6f834950b97f3f",
+    "/videos/projects/arquitetura/arq3.mp4": "26abe26150bda24cd307c952b64042b8f795edad",
+    "/videos/projects/arquitetura/arq3.webp": "d28021213cb133a02b9f94b0530a5f4abe5f6f62",
+    "/videos/projects/automotivo/auto1.mp4": "d26e4001cdcd8a3b7f3901d6b10830159562a48f",
+    "/videos/projects/automotivo/auto1.webp": "2616dbab6eba2d03c7e541c2fea0cd1646396f8d",
+    "/videos/projects/makingoff/mko1.mp4": "d7ca8f79932db1adbfc49969ef396a38855c37fe",
+    "/videos/projects/makingoff/mko1.webp": "1ec66e3f68446284058cca3e76699ed9becf07dc",
+    "/videos/projects/makingoff/mko2.mp4": "40a1f258656759af553c4d75de18df9454a83099",
+    "/videos/projects/makingoff/mko2.webp": "3f6a28e915201bae94fbdb13d10f123233a08ba9"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
