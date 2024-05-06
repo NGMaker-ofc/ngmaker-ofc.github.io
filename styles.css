@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --animate-modalopen: modalopen 0.3s ease-in-out;
+  --animate-modalbg: modalbg 0.3s ease-in-out;
+  --animate-modalclose: modalclose 0.3s ease-in-out;
+  --font-sans: "Roboto", sans-serif;
+  --text-xxs: 0.5rem;
+
+  @keyframes modalopen {
+    0% {
+      scale: 0;
+      opacity: 0;
+    }
+    100% {
+      scale: 1;
+      opacity: 1;
+    }
+  }
+
+  @keyframes modalclose {
+    0% {
+      scale: 1;
+      opacity: 1;
+    }
+    100% {
+      scale: 0;
+      opacity: 0;
+    }
+  }
+
+  @keyframes modalbg {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
