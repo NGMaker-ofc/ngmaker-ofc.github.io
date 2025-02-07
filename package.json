@@ -8,7 +8,7 @@
     "generate": "rm -rf docs; nuxt generate; mv .output/public docs",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "upgrade": "bunx nuxi@latest upgrade --force"
+    "upgrade": "bunx nuxi@latest upgrade"
   },
   "dependencies": {
     "@nuxt/fonts": "0.10.3",

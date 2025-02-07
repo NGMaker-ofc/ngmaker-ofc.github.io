@@ -12,6 +12,8 @@ const props = defineProps({
   }})
   
 const searchRef = ref(props.category)
+
+searchRef.value = useRoute().query.category as string || 'todos'
   
 type MediaLooperRef = {
   rootEl: HTMLElement | null
