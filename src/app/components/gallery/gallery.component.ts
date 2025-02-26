@@ -31,7 +31,7 @@ import { VideoLooperComponent } from '../video-looper/video-looper.component';
   `,
 })
 export class GalleryComponent {
-  category = signal('todos');
+  category = signal('Todos');
   constructor(private route: ActivatedRoute, private location: Location) {
     this.route.params.subscribe((params) => {
       if (params['category']) {

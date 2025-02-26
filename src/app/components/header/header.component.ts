@@ -51,6 +51,13 @@ import type { SiteData } from '../../../types';
         <ul id="menuList" class="flex gap-1 items-center">
           @for (item of siteData().navigation; track item.url) {
           <li class="p-3 text-lg text-slate-200 align-middle">
+            @if(item.url.includes("https") || item.url.includes("#")) {
+            <a
+              [href]="item.url"
+              class="hover:text-[#feb201] hover:scale-105 transition-all font-bold"
+              >{{ item.name }}</a
+            >
+            } @else {
             <a
               [routerLink]="item.url"
               routerLinkActive="text-[#ffb200]"
@@ -58,6 +65,7 @@ import type { SiteData } from '../../../types';
               class="hover:text-[#feb201] hover:scale-105 transition-all font-bold"
               >{{ item.name }}</a
             >
+            }
           </li>
           }
         </ul>
