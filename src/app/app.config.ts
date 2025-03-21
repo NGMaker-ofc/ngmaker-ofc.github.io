@@ -4,8 +4,10 @@ import {
   provideExperimentalZonelessChangeDetection,
 } from '@angular/core';
 import {
+  PreloadAllModules,
   provideRouter,
   withInMemoryScrolling,
+  withPreloading,
   withViewTransitions,
 } from '@angular/router';
 
@@ -22,7 +24,8 @@ export const appConfig: ApplicationConfig = {
     provideRouter(
       routes,
       withViewTransitions(),
-      withInMemoryScrolling({ scrollPositionRestoration: 'enabled' })
+      withInMemoryScrolling({ scrollPositionRestoration: 'enabled' }),
+      withPreloading(PreloadAllModules)
     ),
     provideClientHydration(withEventReplay()),
     provideServiceWorker('ngsw-worker.js', {

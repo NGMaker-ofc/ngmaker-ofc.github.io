@@ -18,7 +18,7 @@ import { SiteData } from '../../../types';
       >
 
       <p class="mt-2">
-        Copyright © 2025 -
+        Copyright © {{ year }} -
         <span class="ml-auto"
           >Desenvolvido por
           <a href="https://lzart.com.br" target="_blank" class="underline"
@@ -31,4 +31,5 @@ import { SiteData } from '../../../types';
 })
 export class FooterComponent {
   siteData = input.required<SiteData>();
+  year = new Date().getFullYear();
 }

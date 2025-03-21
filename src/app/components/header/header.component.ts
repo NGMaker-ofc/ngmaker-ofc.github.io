@@ -70,6 +70,14 @@ import type { SiteData } from '../../../types';
             }
           </li>
           }
+          <li class="p-3 text-lg text-slate-200 align-middle">
+            <a
+              href="#contact"
+              (click)="closeMenu($event, 'contact')"
+              class="hover:text-[#feb201] hover:scale-105 transition-all font-bold"
+              >Contato</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
@@ -117,7 +125,7 @@ export class HeaderComponent {
     }
   };
 
-  closeMenu = () => {
+  closeMenu = (event?: Event, targetId?: string) => {
     const fullMenu = document.getElementById('fullMenu');
     if (fullMenu) {
       fullMenu.classList.add('hidden');
@@ -130,6 +138,15 @@ export class HeaderComponent {
     const menuBtn = document.getElementById('menuBtn');
     if (menuBtn) {
       menuBtn.classList.remove('hidden');
+    }
+
+    // Handle smooth scrolling for anchor links
+    if (event && targetId) {
+      event.preventDefault();
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+      }
     }
   };
 }
