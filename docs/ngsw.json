@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1740611182855,
+  "timestamp": 1743612689534,
   "index": "/index.csr.html",
   "assetGroups": [
     {
@@ -11,16 +11,16 @@
         "ignoreVary": true
       },
       "urls": [
-        "/chunk-BUXAYJ63.js",
-        "/chunk-HAMQBOHD.js",
-        "/chunk-TH24ESBA.js",
+        "/chunk-CBN2HIMU.js",
+        "/chunk-NX44B3ME.js",
+        "/chunk-ZVHE77XO.js",
         "/favicon.ico",
         "/index.csr.html",
         "/index.html",
-        "/main-UYMG5M6Q.js",
+        "/main-5TCUNUXM.js",
         "/manifest.webmanifest",
         "/service-worker.js",
-        "/styles-STFPOJAP.css"
+        "/styles-TFJLIR4H.css"
       ],
       "patterns": []
     },
@@ -79,9 +79,9 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/chunk-BUXAYJ63.js": "71ca78bc3e229800e99897185f598048f4803220",
-    "/chunk-HAMQBOHD.js": "0b419734b9bfa81046bbcdc1c662e6dc67a45c3a",
-    "/chunk-TH24ESBA.js": "6778be8f356e3bcf23137e1dc8c7e129685339ad",
+    "/chunk-CBN2HIMU.js": "1c00257ee590f5b826b37307d4322973ad435e74",
+    "/chunk-NX44B3ME.js": "df1c58130dd767305ef2a80570b50e7de9968125",
+    "/chunk-ZVHE77XO.js": "32c269d30ce3a660d8c6895294709f134a7419a6",
     "/favicon.ico": "c993b6ec718826ec2f9c7dd80ccd8bd0726fc716",
     "/fonts/OpenSans/Bold.ttf": "9b1adfbc773bb8bd1e6c4ca85c34441a43c2bc54",
     "/fonts/OpenSans/Medium.ttf": "3ac7cf35a225574a0e1508d6df731b6ecdd5cf9b",
@@ -111,12 +111,12 @@
     "/images/projects/drone/drone1.webp": "44e12af0f076902ac01ff2f57c7fca706d9c5e9b",
     "/images/projects/drone/drone2.webp": "c25c85510405296414da075bbeda868132654ac3",
     "/images/projects/drone/drone3.webp": "bc883598f59ebf1cd00eb498661d414eb1fd06df",
-    "/index.csr.html": "83c6ca92abbc16a7a813c709f5138a2f6969ad21",
-    "/index.html": "14b1b3546c474610ecd34bc056175c3f49e2a878",
-    "/main-UYMG5M6Q.js": "1504c4a108d2264b188e3b5db15f50977dac30fb",
+    "/index.csr.html": "7ffcfb685e2785e51aaaa9bad84fa11614d8dc82",
+    "/index.html": "1df714ad7b4eae4aa8b83f49b5a81c272ab1d372",
+    "/main-5TCUNUXM.js": "e3ee39daa7c0decfd7d81d5c9e24bcf18358ef67",
     "/manifest.webmanifest": "c210b89721c9442f11f67b32e5a9fddb36091f06",
     "/service-worker.js": "eaf0ebdb4fbb871d2bf985f3abbe7f0b4bfd57f0",
-    "/styles-STFPOJAP.css": "5187918634927302456c35d941ef698fcfd8cba9",
+    "/styles-TFJLIR4H.css": "c164e282c7dcd4b15098571e878bcf4d5c57c184",
     "/videos/partners.mp4": "e5767eace098c58b107c306a970b297aa251ff0d",
     "/videos/projects/arquitetura/arq1.mp4": "3cf27df4385e82b2a334155aaf2d50c59794bcb0",
     "/videos/projects/arquitetura/arq1.webp": "6b5296af9ad4c208403455678dd9b3a2970a25ed",

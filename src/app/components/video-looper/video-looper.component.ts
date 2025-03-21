@@ -20,7 +20,6 @@ import { siteData } from '../../../siteData';
         <video
           class="rounded-t-lg mx-auto"
           [src]="project.video"
-          loading="lazy"
           (click)="playVideo($event)"
           (dblclick)="resetVideoTime($event)"
           width="360"

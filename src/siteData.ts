@@ -19,10 +19,6 @@ const siteData = {
       name: 'Galeria',
       url: '/gallery/Todos',
     },
-    {
-      name: 'Contato',
-      url: '#contact',
-    },
   ],
   socials: {
     instagram: 'https://www.instagram.com/ngmaker.ofc',

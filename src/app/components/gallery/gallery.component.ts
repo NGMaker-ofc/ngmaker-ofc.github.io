@@ -1,5 +1,5 @@
 import { Location } from '@angular/common';
-import { Component, effect, signal } from '@angular/core';
+import { Component, effect, inject, signal } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 import { ImageLooperComponent } from '../image-looper/image-looper.component';
@@ -33,11 +33,10 @@ import { VideoLooperComponent } from '../video-looper/video-looper.component';
 })
 export class GalleryComponent {
   category = signal('Todos');
-  constructor(
-    private route: ActivatedRoute,
-    private location: Location,
-    private title: Title
-  ) {
+  route = inject(ActivatedRoute);
+  location = inject(Location);
+  title = inject(Title);
+  constructor() {
     this.title.setTitle('Galería - NG Maker');
     this.route.params.subscribe((params) => {
       if (params['category']) {

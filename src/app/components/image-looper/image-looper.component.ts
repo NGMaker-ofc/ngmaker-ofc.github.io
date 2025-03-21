@@ -25,13 +25,15 @@ import { siteData } from '../../../siteData';
         <article
           class="bg-inherit dark:bg-stone-700 rounded shadow-md hover:scale-[1.02] transition-all w-full"
         >
-          <img
-            (click)="handleDialogImage(project.image)"
-            class="rounded-t-lg mx-auto object-cover"
-            [src]="project.image"
-            [alt]="project.title"
-            loading="lazy"
-          />
+          <div>
+            <img
+              (click)="handleDialogImage(project.image)"
+              class="rounded-t-lg mx-auto object-cover"
+              [src]="project.image"
+              [alt]="project.title"
+              [loading]="$index >= 2 ? 'lazy' : 'eager'"
+            />
+          </div>
           <div class="p-0.5 ml-1">
             <a
               [href]="project.link"
