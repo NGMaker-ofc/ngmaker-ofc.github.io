@@ -9,10 +9,7 @@ import { siteData } from '../../../siteData';
   template: `
     <search class="flex flex-col justify-center items-center pt-4">
       <p>Filtrar por:</p>
-      <select
-        [(ngModel)]="searchModel"
-        class="dark:bg-stone-700 dark:text-inherit"
-      >
+      <select [(ngModel)]="searchModel" class="bg-stone-700 text-inherit">
         <option value="Todos">Todos</option>
         @for (option of options(); track option) {
         <option [value]="option">

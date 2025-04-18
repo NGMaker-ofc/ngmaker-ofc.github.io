@@ -4,10 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-partners',
   imports: [],
   template: `
-    <section
-      id="partners"
-      class="bg-inherit dark:bg-stone-900 p-5 m-4 shadow-lg"
-    >
+    <section id="partners" class="bg-stone-900 p-5 m-4 shadow-lg">
       <div class="container mx-auto md:max-w-6xl">
         <!-- <h1 class="p-3 text-center text-2xl md:text-4xl font-bold text-nowrap">
       <Icon name="mdi:pan-left" size="50" class="pointer-events-none align-middle" />

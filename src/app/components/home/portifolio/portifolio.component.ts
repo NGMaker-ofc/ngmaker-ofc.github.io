@@ -6,10 +6,7 @@ import { siteData } from '../../../../siteData';
   selector: 'app-portifolio',
   imports: [RouterLink],
   template: `
-    <section
-      id="portifolio"
-      class="bg-inherit dark:bg-stone-900 p-5 m-4 shadow-lg"
-    >
+    <section id="portifolio" class="bg-stone-900 p-5 m-4 shadow-lg">
       <div class="container mx-auto md:max-w-6xl">
         <h1 class="p-3 text-center text-4xl font-bold">Portifólio</h1>
         <div

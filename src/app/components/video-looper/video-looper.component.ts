@@ -6,7 +6,7 @@ import { siteData } from '../../../siteData';
   imports: [],
   template: ` <section
     id="videoProjects"
-    class="bg-inherit dark:bg-stone-900 p-5 m-4 shadow-lg"
+    class="bg-stone-900 p-5 m-4 shadow-lg"
   >
     <h1 class="p-3 text-center text-4xl font-bold">Videos</h1>
     @if (filteredProjects().length > 0) {
@@ -15,7 +15,7 @@ import { siteData } from '../../../siteData';
     >
       @for (project of filteredProjects(); track project.video) {
       <article
-        class="bg-inherit dark:bg-stone-700 rounded shadow-md hover:scale-[1.02] transition-all w-full flex flex-col"
+        class="bg-stone-700 rounded shadow-md hover:scale-[1.02] transition-all w-full flex flex-col"
       >
         <video
           class="rounded-t-lg mx-auto"

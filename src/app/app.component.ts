@@ -14,7 +14,7 @@ import { WhatsAppButtonComponent } from './components/whats-app-button/whats-app
     WhatsAppButtonComponent,
   ],
   template: `
-    <div class="dark:bg-stone-950 dark:text-stone-100">
+    <div class="bg-stone-950 text-stone-100">
       <app-header [siteData]="siteConfig" />
       <router-outlet />
       <app-whats-app-button [siteData]="siteConfig" />

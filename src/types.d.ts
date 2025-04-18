@@ -21,12 +21,6 @@ interface VideoProject extends ProjectItem {
   video: string;
 }
 
-interface Partner {
-  name: string;
-  image: string;
-  url: string;
-}
-
 interface Author {
   name: string;
   occupation: string;
@@ -52,7 +46,6 @@ interface SiteData {
   socials: SocialLinks;
   url: string;
   projects: Projects;
-  partners: Partner[];
   author: Author;
 }
 
@@ -60,7 +53,6 @@ export type {
   Author,
   ImageProject,
   NavigationItem,
-  Partner,
   ProjectItem,
   Projects,
   SiteData,
