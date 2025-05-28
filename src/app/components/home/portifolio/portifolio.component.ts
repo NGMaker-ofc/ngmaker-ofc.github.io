@@ -11,7 +11,7 @@ import { siteData } from '../../../../siteData';
         <h1 class="p-3 text-center text-4xl font-bold">Portifólio</h1>
         <div
           id="portifolioContainer"
-          class="mx-auto transition-all duration-1000 grid grid-cols-1 md:grid-cols-3 gap-4 my-4"
+          class="mx-auto transition-all duration-1000 grid grid-cols-1 md:grid-cols-4 gap-4 my-4"
         >
           @for (tag of categories(); track tag) {
           <a

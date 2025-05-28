@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1747148685294,
+  "timestamp": 1748644918908,
   "index": "/index.csr.html",
   "assetGroups": [
     {
@@ -11,16 +11,15 @@
         "ignoreVary": true
       },
       "urls": [
-        "/chunk-AAYYFD7E.js",
-        "/chunk-DCKLXJ7T.js",
-        "/chunk-DCVLZOZB.js",
+        "/chunk-6Q7EG7IC.js",
+        "/chunk-S5ROSCD3.js",
+        "/chunk-V4UISNKF.js",
         "/favicon.ico",
-        "/index.csr.html",
         "/index.html",
-        "/main-WIFFAILU.js",
+        "/main-XJ5V6SMW.js",
         "/manifest.webmanifest",
         "/service-worker.js",
-        "/styles-FXHJWYJJ.css"
+        "/styles-KBUA6MMZ.css"
       ],
       "patterns": []
     },
@@ -45,6 +44,7 @@
         "/images/categories/drone.webp",
         "/images/categories/makingoff.webp",
         "/images/hero.webp",
+        "/images/heroMobile.webp",
         "/images/logo.webp",
         "/images/projects/arquitetura/arquitetura1.webp",
         "/images/projects/arquitetura/arquitetura10.webp",
@@ -78,9 +78,9 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/chunk-AAYYFD7E.js": "fe27014b6ffd7f2fccc87f1044d7cfea0f090916",
-    "/chunk-DCKLXJ7T.js": "96f338123cd0d038ebfa1251d18a8ebe80458126",
-    "/chunk-DCVLZOZB.js": "bd51b6323efc2be8475d729d09992c7722ac44c5",
+    "/chunk-6Q7EG7IC.js": "d3e901ef3835f345ac5330d1bbafc275442f29f2",
+    "/chunk-S5ROSCD3.js": "77e352ab9cd520e553adb4972d6f792da216c252",
+    "/chunk-V4UISNKF.js": "1e70e5d850093c90ce70e35911f4f894e99ea7fe",
     "/favicon.ico": "c993b6ec718826ec2f9c7dd80ccd8bd0726fc716",
     "/fonts/OpenSans/Bold.ttf": "9b1adfbc773bb8bd1e6c4ca85c34441a43c2bc54",
     "/fonts/OpenSans/Medium.ttf": "3ac7cf35a225574a0e1508d6df731b6ecdd5cf9b",
@@ -94,7 +94,8 @@
     "/images/categories/automotivo.webp": "bcd82d2299b2dc7efa9eddf093d0962da2372203",
     "/images/categories/drone.webp": "adfb57df5bfa54f0e55f5b927d571b28a9dd9bfc",
     "/images/categories/makingoff.webp": "baf246e6f1f1f60591e1e7022b41898a7e9ba33e",
-    "/images/hero.webp": "d52a7b20b1a6e1b1a8b1dd3c2e9f82cb83c1bc9a",
+    "/images/hero.webp": "c16c4067b40ec7e77781d2bd81bab89f2147fe35",
+    "/images/heroMobile.webp": "03c0ddfc06c2b579f45c30b62361b5cb5a42bbd0",
     "/images/logo.webp": "eece0aa8b5343ba7e11f4cbf9ad87736404e5153",
     "/images/projects/arquitetura/arquitetura1.webp": "6a113909df5657c1a11c7167922376e0751913fb",
     "/images/projects/arquitetura/arquitetura10.webp": "604c53bdef19e6a577e729a09482ab6ecfa755bb",
@@ -109,12 +110,11 @@
     "/images/projects/drone/drone1.webp": "44e12af0f076902ac01ff2f57c7fca706d9c5e9b",
     "/images/projects/drone/drone2.webp": "c25c85510405296414da075bbeda868132654ac3",
     "/images/projects/drone/drone3.webp": "bc883598f59ebf1cd00eb498661d414eb1fd06df",
-    "/index.csr.html": "26d67c051a2e23aa03ecb84152e3411046069426",
-    "/index.html": "51dc0639ea73a16ec5afbe7e8ec78b7128b84e60",
-    "/main-WIFFAILU.js": "e12dbd5f665942c30838136124adfc964a9eaf2d",
+    "/index.html": "da321cecd2d7aea1bb6120720eb62f5c58ea884d",
+    "/main-XJ5V6SMW.js": "29580e08c98dea834c5cc38329dad683c434af2b",
     "/manifest.webmanifest": "c210b89721c9442f11f67b32e5a9fddb36091f06",
     "/service-worker.js": "eaf0ebdb4fbb871d2bf985f3abbe7f0b4bfd57f0",
-    "/styles-FXHJWYJJ.css": "4f9b8ee258a28677fefb59c608a505709596d935",
+    "/styles-KBUA6MMZ.css": "e6e8a1862dc4950aad2dfe4ebb253a1a9aaff7bd",
     "/videos/partners.mp4": "e5767eace098c58b107c306a970b297aa251ff0d",
     "/videos/projects/arquitetura/arq1.mp4": "3cf27df4385e82b2a334155aaf2d50c59794bcb0",
     "/videos/projects/arquitetura/arq1.webp": "6b5296af9ad4c208403455678dd9b3a2970a25ed",
