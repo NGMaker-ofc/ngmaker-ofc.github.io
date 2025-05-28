@@ -9,7 +9,7 @@ import { SiteData } from '../../../types';
       class="bg-gradient-to-r from-[#000000] to-[#252525] text-center py-4 mt-4 text-white font-normal"
     >
       <a
-        class="text-2xl hover:text-[#feb201] flex justify-center gap-2 text-center"
+        class="text-2xl hover:text-[#feb201] italic flex justify-center gap-2 text-center"
         [href]="siteData().socials.instagram"
         target="_blank"
         ><img src="/icons/instagram.svg" width="25" height="25" /><span
@@ -17,7 +17,7 @@ import { SiteData } from '../../../types';
         ></a
       >
 
-      <p class="mt-2">
+      <p class="mt-2 italic font-light">
         Copyright © {{ year }} -
         <span class="ml-auto"
           >Desenvolvido por

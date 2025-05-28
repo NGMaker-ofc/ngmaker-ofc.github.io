@@ -8,11 +8,23 @@ import { siteData } from '../../../../siteData';
   template: `
     <section id="portifolio" class="bg-stone-900 p-5 m-4 shadow-lg">
       <div class="container mx-auto md:max-w-6xl">
-        <h1 class="p-3 text-center text-4xl font-bold">Portifólio</h1>
+        <h1 class="p-3 text-center text-4xl font-medium italic">Portifólio</h1>
         <div
           id="portifolioContainer"
           class="mx-auto transition-all duration-1000 grid grid-cols-1 md:grid-cols-3 gap-4 my-4"
         >
+          <!-- Static Gerais category -->
+          <a
+            [routerLink]="['/gallery', 'geral']"
+            class="w-full h-auto transition-all hover:scale-105"
+          >
+            <img
+              src="/images/categories/gerais.webp"
+              alt="Gerais"
+              class="rounded-lg shadow-lg"
+            />
+          </a>
+
           @for (tag of categories(); track tag) {
           <a
             [routerLink]="['/gallery', tag]"

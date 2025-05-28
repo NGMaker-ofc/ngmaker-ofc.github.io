@@ -55,7 +55,7 @@ import type { SiteData } from '../../../types';
             <a
               [href]="item.url"
               (click)="closeMenu()"
-              class="hover:text-[#feb201] hover:scale-105 transition-all font-bold"
+              class="hover:text-[#feb201] hover:scale-105 transition-all font-medium italic"
               >{{ item.name }}</a
             >
             } @else {
@@ -64,7 +64,7 @@ import type { SiteData } from '../../../types';
               [routerLink]="item.url"
               routerLinkActive="text-[#ffb200]"
               [routerLinkActiveOptions]="{ exact: true }"
-              class="hover:text-[#feb201] hover:scale-105 transition-all font-bold"
+              class="hover:text-[#feb201] hover:scale-105 transition-all font-medium italic"
               >{{ item.name }}</a
             >
             }
@@ -74,7 +74,7 @@ import type { SiteData } from '../../../types';
             <a
               href="#contact"
               (click)="closeMenu($event, 'contact')"
-              class="hover:text-[#feb201] hover:scale-105 transition-all font-bold"
+              class="hover:text-[#feb201] hover:scale-105 transition-all font-medium italic"
               >Contato</a
             >
           </li>
