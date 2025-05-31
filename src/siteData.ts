@@ -27,23 +27,23 @@ const siteData = {
   projects: {
     images: [
       {
-        image: '/images/projects/drone/drone1.webp',
+        image: '/images/projects/aereas/drone1.webp',
         title: 'Drone',
         link: 'https://lzart.com.br',
-        tag: '#Drone #Automotivo',
+        tag: '#Aereas #Automotivo',
       },
 
       {
-        image: '/images/projects/drone/drone2.webp',
+        image: '/images/projects/aereas/drone2.webp',
         title: 'Controle do Drone',
         link: 'https://www.instagram.com/p/Csl7pdqJwnw/',
-        tag: '#Drone',
+        tag: '#Aereas',
       },
       {
-        image: '/images/projects/drone/drone3.webp',
+        image: '/images/projects/aereas/drone3.webp',
         title: 'Acessórios do Drone',
         link: 'https://www.instagram.com/p/Cs8oiLGOt2L/',
-        tag: '#Drone',
+        tag: '#Aereas',
       },
       {
         image: '/images/projects/arquitetura/arquitetura1.webp',
@@ -55,7 +55,7 @@ const siteData = {
         image: '/images/projects/arquitetura/arquitetura2.webp',
         title: 'Projeto de Arquitetura 2',
         link: '#',
-        tag: '#Arquitetura',
+        tag: '#Arquitetura #Moveis',
       },
       {
         image: '/images/projects/arquitetura/arquitetura3.webp',
@@ -132,16 +132,16 @@ const siteData = {
         tag: '#Automotivo',
       },
       {
-        video: '/videos/projects/makingoff/mko1.mp4',
+        video: '/videos/projects/corporativo/mko1.mp4',
         title: 'Behind The Scenes',
         link: 'https://lzart.com.br',
-        tag: '#MakingOff',
+        tag: '#Corporativo',
       },
       {
-        video: '/videos/projects/makingoff/mko2.mp4',
+        video: '/videos/projects/corporativo/mko2.mp4',
         title: 'Creative Process',
         link: 'https://lzart.com.br',
-        tag: '#MakingOff',
+        tag: '#Corporativo',
       },
     ],
   },
