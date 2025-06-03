@@ -1,19 +1,15 @@
-import { Component, computed, input } from '@angular/core';
-import { siteData } from '../../../siteData';
+import { Component, computed } from '@angular/core';
+import { siteData } from '../../../../siteData';
 
 @Component({
-  selector: 'app-video-looper',
-  imports: [],
-  template: ` <section
-    id="videoProjects"
-    class="bg-stone-900 p-5 m-4 shadow-lg"
-  >
-    <h1 class="p-3 text-center text-4xl font-medium italic">Videos</h1>
-    @if (filteredProjects().length > 0) {
+  selector: 'app-featured',
+  template: ` <section id="featured" class="bg-stone-900 p-5 m-4 shadow-lg">
+    <h1 class="p-3 text-center text-4xl font-medium italic">Produções</h1>
+    @if (featuredProjects().length > 0) {
     <main
       class="grid grid-cols-2 w-full md:grid-cols-4 gap-4 container mx-auto my-4 bg-transparent"
     >
-      @for (project of filteredProjects(); track project.video) {
+      @for (project of featuredProjects(); track project.video) {
       <article
         class="bg-stone-700 rounded shadow-md hover:scale-[1.02] transition-all w-full flex flex-col"
       >
@@ -48,23 +44,20 @@ import { siteData } from '../../../siteData';
     </main>
     } @else {
     <p class="text-center text-2xl font-medium italic">
-      Nenhum vídeo encontrado com a tag: {{ category() }}
+      Nenhum vídeo em destaque encontrado
     </p>
     }
   </section>`,
 })
-export class VideoLooperComponent {
-  category = input.required<string>();
-  filteredProjects = computed(() => {
-    const projects = siteData.projects.videos;
-    if (this.category().toLowerCase() === 'geral') {
-      return projects;
-    }
-    return projects.filter((project) =>
-      project.tag.toLowerCase().includes(this.category().toLowerCase())
+export class FeaturedComponent {
+  featuredProjects = computed(() => {
+    return siteData.projects.videos.filter(
+      (project) => project.featured === true
     );
   });
+
   playingVideos: HTMLVideoElement[] = [];
+
   playVideo = (event: Event) => {
     // Check if video is already playing
     const videoElement = event.target as HTMLVideoElement;
@@ -86,6 +79,7 @@ export class VideoLooperComponent {
       videoElement.controls = true;
     }
   };
+
   resetVideoTime = (event: Event) => {
     const videoElement = event.target as HTMLVideoElement;
     videoElement.currentTime = 0;

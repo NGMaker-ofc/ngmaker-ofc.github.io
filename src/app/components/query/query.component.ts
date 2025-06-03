@@ -7,13 +7,18 @@ import { siteData } from '../../../siteData';
   imports: [FormsModule],
   schemas: [NO_ERRORS_SCHEMA],
   template: `
-    <search class="flex flex-col justify-center items-center pt-4">
-      <p>Filtrar por:</p>
-      <select [(ngModel)]="searchModel" class="bg-stone-700 text-inherit">
-        <option value="Todos">Todos</option>
+    <search class="flex flex-col justify-center items-center">
+      <p class="text-sm md:text-base text-[#feb201] italic font-medium">
+        Filtrar por:
+      </p>
+      <select
+        [(ngModel)]="searchModel"
+        class="bg-stone-700 font-medium italic text-inherit rounded p-1 text-center"
+      >
+        <option value="geral" class="font-medium italic">Geral</option>
         @for (option of options(); track option) {
-        <option [value]="option">
-          {{ option }}
+        <option [value]="option" class="font-medium italic">
+          {{ option.charAt(0).toUpperCase() + option.slice(1) }}
         </option>
         }
       </select>

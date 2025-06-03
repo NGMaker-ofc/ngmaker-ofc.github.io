@@ -13,7 +13,7 @@ import { siteData } from '../../../siteData';
   imports: [],
   template: `
     <section id="imageProjects" class="bg-stone-900 p-5 m-4 shadow-lg">
-      <h1 class="p-3 text-center text-4xl font-bold">Fotos</h1>
+      <h1 class="p-3 text-center text-4xl font-medium italic">Fotos</h1>
       @if (filteredProjects().length > 0){
       <main
         class="grid grid-cols-1 w-full md:grid-cols-3 gap-4 container mx-auto my-4 bg-transparent"
@@ -35,10 +35,12 @@ import { siteData } from '../../../siteData';
             <a
               [href]="project.link"
               target="_blank"
-              class="block font-bold text-xl md:text-2xl text-pretty"
+              class="block font-medium italic text-xs md:text-sm lg:text-base text-pretty"
               >{{ project.title }}</a
             >
-            <p class="font-light text-balance mt-0.5 text-sm md:text-base">
+            <p
+              class="font-light italic text-balance text-xxs md:text-xs lg:text-sm"
+            >
               {{ project.tag }}
             </p>
           </div>
@@ -46,18 +48,9 @@ import { siteData } from '../../../siteData';
         }
       </main>
       } @else {
-      <p class="text-center text-2xl font-bold">
+      <p class="text-center text-2xl font-medium italic">
         Nenhuma foto encontrada com a tag: {{ category() }}
       </p>
-      } @if ( filteredProjects().length > 0){
-      <div class="mx-auto py-4 mt-4 grid place-items-center">
-        <button
-          (click)="scrollToTop()"
-          class="text-xl px-5 py-2 bg-[#feb201] hover:bg-[#d79600] active:scale-95 rounded uppercase text-white font-bold shadow-md cursor-pointer"
-        >
-          Voltar ao topo
-        </button>
-      </div>
       }
       <dialog
         #modal
@@ -75,7 +68,7 @@ export class ImageLooperComponent {
   category = input.required<string>();
   filteredProjects = computed(() => {
     const projects = siteData.projects.images;
-    if (this.category().toLowerCase() === 'todos') {
+    if (this.category().toLowerCase() === 'geral') {
       return projects;
     }
     return projects.filter((project) =>
@@ -94,11 +87,5 @@ export class ImageLooperComponent {
     if (imgElement && imageURL) {
       imgElement.src = imageURL;
     }
-  }
-  scrollToTop() {
-    scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
   }
 }

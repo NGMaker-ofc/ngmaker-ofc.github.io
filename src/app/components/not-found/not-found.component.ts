@@ -12,7 +12,9 @@ import { RouterLink } from '@angular/router';
       <div
         class="container mx-auto p-8 flex flex-col items-center justify-center max-w-screen-sm bg-stone-900/75 backdrop-blur-sm rounded-2xl"
       >
-        <h1 class="p-2 text-4xl font-bold">Oops, página não encontrada.</h1>
+        <h1 class="p-2 text-4xl font-medium italic">
+          Oops, página não encontrada.
+        </h1>
         <p class="text-center text-lg">
           <a routerLink="/" class="underline cursor-pointer">Clique aqui</a>
           para voltar ao início.

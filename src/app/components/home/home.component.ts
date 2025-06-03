@@ -4,6 +4,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { HeroComponent } from './hero/hero.component';
 import { PartnersComponent } from './partners/partners.component';
 import { PortifolioComponent } from './portifolio/portifolio.component';
+import { FeaturedComponent } from './featured/featured.component';
 
 @Component({
   selector: 'app-home',
@@ -13,9 +14,11 @@ import { PortifolioComponent } from './portifolio/portifolio.component';
     PortifolioComponent,
     AboutUsComponent,
     PartnersComponent,
+    FeaturedComponent,
   ],
   template: `<div>
     <app-hero />
+    <app-featured />
     <app-portifolio />
     <app-about-us />
     <app-partners />

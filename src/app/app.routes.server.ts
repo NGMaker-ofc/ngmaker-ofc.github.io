@@ -9,8 +9,8 @@ export const serverRoutes: ServerRoute[] = [
       // Extract all tags from projects
       const allTags = new Set<string>();
 
-      // Add "Todos" as a default category
-      allTags.add('Todos');
+      // Add "geral" as a default category
+      allTags.add('geral');
 
       // Extract tags from images
       siteData.projects.images.forEach((project) => {

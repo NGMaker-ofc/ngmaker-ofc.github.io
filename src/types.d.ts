@@ -19,6 +19,7 @@ interface ImageProject extends ProjectItem {
 
 interface VideoProject extends ProjectItem {
   video: string;
+  featured?: boolean;
 }
 
 interface Author {
