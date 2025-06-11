@@ -15,4 +15,4 @@ git stash pop
 echo Alterações locais restauradas.
 title Iniciando servidor
 echo Iniciando servidor...
-bun run dev
+pnpm run dev

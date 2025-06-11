@@ -23,7 +23,7 @@ const siteData = {
   socials: {
     instagram: 'https://www.instagram.com/ngmaker.ofc',
   },
-  url: `https://ngmaker-ofc.github.io`,
+  url: `https://ngmaker.com.br`,
   projects: {
     images: [
       {

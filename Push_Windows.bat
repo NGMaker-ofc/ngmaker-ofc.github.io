@@ -1,7 +1,7 @@
 @echo off
 title Compilando aplicacao
 echo Compilando aplicacao...
-bun run build:windows
+pnpm run build:windows
 echo Aplicacao compilada com sucesso!
 git add .
 git commit -m "Build %date%"
