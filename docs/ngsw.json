@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1749666686216,
+  "timestamp": 1750451890699,
   "index": "/index.csr.html",
   "assetGroups": [
     {
@@ -11,12 +11,12 @@
         "ignoreVary": true
       },
       "urls": [
-        "/chunk-2TNBGG2O.js",
-        "/chunk-UZO6ZD7X.js",
-        "/chunk-YRSYXTRV.js",
+        "/chunk-CHGMHID5.js",
+        "/chunk-QMIJ5YPN.js",
+        "/chunk-RXIEBA2O.js",
         "/favicon.ico",
         "/index.html",
-        "/main-WUVNUDFI.js",
+        "/main-MZSZAA23.js",
         "/manifest.webmanifest",
         "/service-worker.js",
         "/styles-IHBYU7NS.css"
@@ -78,9 +78,9 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/chunk-2TNBGG2O.js": "2910efe83106d1ab0a7dd47259e1785251214fa8",
-    "/chunk-UZO6ZD7X.js": "d2be7a2be281758a514c33046366ca80fb5a9deb",
-    "/chunk-YRSYXTRV.js": "65b326ff394368aedc08ea3852bb31ddb7485d3f",
+    "/chunk-CHGMHID5.js": "c28636d4e443cd3953ce5054eb8ecbcbe336c765",
+    "/chunk-QMIJ5YPN.js": "3ccc52c9c3ba2c412d81cfad5e09d4d1895d9dbc",
+    "/chunk-RXIEBA2O.js": "458129a98534c985e4dff929b07b81f907523075",
     "/favicon.ico": "c993b6ec718826ec2f9c7dd80ccd8bd0726fc716",
     "/icons/instagram.svg": "c5471558117c00efdda394c1bf7dad7bc02229ab",
     "/icons/up-arrow.svg": "cdf2236dddc3c8d499cc134c1d456906edb184a7",
@@ -110,8 +110,8 @@
     "/images/projects/arquitetura/arquitetura7.webp": "d42575736c93900559a617e682d78a465184d8c6",
     "/images/projects/arquitetura/arquitetura8.webp": "d8cd219ce6a89a69bceee21c82e821c7d9d9c99b",
     "/images/projects/arquitetura/arquitetura9.webp": "0b04442de12a0eb2ccbdcadac9dc5dad0ee3f9e9",
-    "/index.html": "689a6f4989098610d78eaaf2c03cf2247a90f73b",
-    "/main-WUVNUDFI.js": "6b12b580ceb70e643b875e91939d669c193c30d2",
+    "/index.html": "c72000dc40fd8e000c611e302146ad2f4db924c5",
+    "/main-MZSZAA23.js": "9dfa5253f6e7249c487a509a2e481d8fa5693ae0",
     "/manifest.webmanifest": "c210b89721c9442f11f67b32e5a9fddb36091f06",
     "/service-worker.js": "eaf0ebdb4fbb871d2bf985f3abbe7f0b4bfd57f0",
     "/styles-IHBYU7NS.css": "39acab46bc9cfed7931e34a802ae8b7d8a88b2e3",
