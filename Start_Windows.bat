@@ -13,6 +13,10 @@ title Restaurando alterações locais
 echo Restaurando alterações locais...
 git stash pop
 echo Alterações locais restauradas.
+title Instalando e atualizando dependências
+echo Instalando dependências...
+pnpm install
+echo Dependências instaladas.
 title Iniciando servidor
 echo Iniciando servidor...
 pnpm run dev
