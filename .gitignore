@@ -42,5 +42,4 @@ testem.log
 Thumbs.db
 
 # Heavy stuff
-public/images
-public/videos
+public/assets

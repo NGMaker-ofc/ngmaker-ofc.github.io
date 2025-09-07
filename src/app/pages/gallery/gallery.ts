@@ -44,6 +44,8 @@ export default class Gallery {
   constructor() {
     this.title.setTitle('Galeria - NG Maker');
     this.route.params.subscribe((params) => {
+      console.log(params);
+
       if (params['category']) {
         this.category.set(params['category']);
       } else {

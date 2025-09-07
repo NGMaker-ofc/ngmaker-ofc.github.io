@@ -18,7 +18,7 @@ import { Component } from '@angular/core';
     </div> -->
 
         <video
-          src="/videos/partners.mp4"
+          src="/assets/videos/partners.mp4"
           autoplay
           loop
           muted

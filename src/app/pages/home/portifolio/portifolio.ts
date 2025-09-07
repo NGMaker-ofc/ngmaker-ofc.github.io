@@ -18,13 +18,17 @@ import { siteData } from '../../../../siteData';
             [routerLink]="['/gallery', 'geral']"
             class="w-full h-auto transition-all hover:scale-105"
           >
-            <img src="/images/categories/gerais.webp" alt="Gerais" class="rounded-lg shadow-lg" />
+            <img
+              src="/assets/images/categories/gerais.webp"
+              alt="Gerais"
+              class="rounded-lg shadow-lg"
+            />
           </a>
 
           @for (tag of categories(); track tag) {
           <a [routerLink]="['/gallery', tag]" class="w-full h-auto transition-all hover:scale-105">
             <img
-              src="/images/categories/{{ tag.toLowerCase() }}.webp"
+              src="/assets/images/categories/{{ tag.toLowerCase() }}.webp"
               [alt]="tag"
               class="rounded-lg shadow-lg"
             />

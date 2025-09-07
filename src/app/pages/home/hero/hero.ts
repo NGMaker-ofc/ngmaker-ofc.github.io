@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   template: `
     <section
       id="hero"
-      class="px-8 py-8 shadow-xl h-[17dvh] md:h-[50dvh] bg-[url('/images/heroMobile.webp')] md:bg-[url('/images/hero.webp')] bg-cover bg-center"
+      class="px-8 py-8 shadow-xl h-[17dvh] md:h-[50dvh] bg-[url('/assets/images/heroMobile.webp')] md:bg-[url('/assets/images/hero.webp')] bg-cover bg-center"
     ></section>
   `,
   styles: ``,

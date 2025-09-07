@@ -7,7 +7,7 @@ import { RouterLink } from '@angular/router';
   template: `
     <section
       id="notFound"
-      class="bg-stone-900 text-white p-5 h-dvh grid place-items-center mt-4 bg-[url('/images/hero.webp')] bg-cover bg-no-repeat"
+      class="bg-stone-900 text-white p-5 h-dvh grid place-items-center mt-4 bg-[url('/assets/images/hero.webp')] bg-cover bg-no-repeat"
     >
       <div
         class="container mx-auto p-8 flex flex-col items-center justify-center max-w-screen-sm bg-stone-900/75 backdrop-blur-sm rounded-2xl"

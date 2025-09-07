@@ -13,14 +13,12 @@ export const routes: Routes = [
     loadComponent() {
       return import('./pages/gallery/gallery');
     },
-    children: [
-      {
-        path: ':category',
-        loadComponent() {
-          return import('./pages/gallery/gallery');
-        },
-      },
-    ],
+  },
+  {
+    path: 'gallery/:category',
+    loadComponent() {
+      return import('./pages/gallery/gallery');
+    },
   },
   {
     path: '**',
