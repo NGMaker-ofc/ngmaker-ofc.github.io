@@ -1,12 +1,11 @@
 {
   "name": "ngmaker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "ng": "ng",
-    "dev": "ng serve",
+    "dev": "ng serve --host",
     "build": "rm -rf dist/ngmaker/browser; ng build; cp dist/ngmaker/browser/index.html dist/ngmaker/browser/404.html",
-    "build:windows": "rmdir /s /q dist\\ngmaker\\browser 2>nul || true & ng build & copy dist\\ngmaker\\browser\\index.html dist\\ngmaker\\browser\\404.html",
-    "production": "bash buildAndDeploy.sh"
+    "deploy": "bash deploy.sh"
   },
   "prettier": {
     "printWidth": 100,

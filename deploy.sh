@@ -1,5 +1,4 @@
 #!/bin/bash
-server=matrix
 service=ngmaker
 compose_dir="/opt/storage/containers"
 
